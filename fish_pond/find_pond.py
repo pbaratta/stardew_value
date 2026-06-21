@@ -8,6 +8,8 @@ class StardewData:
 	fish_ponds: list
 
 def load_stardew():
+	' get stardew data from json files '
+	# these are from unpacked XNB files
 	with open('data/FishPondData.json', encoding='utf-8') as f:
 		fish_ponds = json.load(f)
 
@@ -112,13 +114,13 @@ def find_pond(data, fish_id):
 
 
 def format_fish_produce(data, fish_id):
-	'  '
+	'  make a debug printout of all relevant data from `FishPondData.json` '
 	_, pond = find_pond(data, fish_id)
 	if pond is None:
 		return
 
 	print(f'{fish_id}:')
-	print(f'\tName: {OBJECTS[fish_id]['Name']}')
+	print(f'\tName: {data.objects[fish_id]['Name']}')
 	print(f'\tBaseMinProduceChance: {pond['BaseMinProduceChance']}')
 	print(f'\tBaseMaxProduceChance: {pond['BaseMaxProduceChance']}')
 
@@ -127,7 +129,6 @@ def format_fish_produce(data, fish_id):
 		max_population = 10
 	print(f'\tMaxPopulation: {max_population}')
 
-
 	if pond['BaseMinProduceChance'] >= pond['BaseMaxProduceChance']:
 		anything_produced_chance = pond['BaseMinProduceChance']
 	else:
@@ -135,7 +136,7 @@ def format_fish_produce(data, fish_id):
 
 	print(f'\tanything_produced_chance: {anything_produced_chance}')
 
-	fish = OBJECTS[fish_id]
+	fish = data.objects[fish_id]
 	for item in pond['ProducedItems']:
 		print(f'\tProducedItem: {item['ItemId']}')
 		print(f'\t\tRequiredPopulation: {item['RequiredPopulation']}')
@@ -157,7 +158,7 @@ class NoPond(Exception):
 	pass
 
 def calculate_pond_outputs(data, fish_id):
-	' iterable of (chance, item, average quantity) as they are enumerated '
+	' perform probability calculations to output (chance, item, average quantity) from pond data '
 
 	_, pond = find_pond(data, fish_id)
 	if not pond:
@@ -219,17 +220,17 @@ def lerp(a, b, t):
 
 import collections
 ROE = '812'
-BONUS_ROE = 0.25
 
 def adjust_roe_quantity(item, quantity):
+	' adjust quantity for small bonus in source code '
 	if item == ROE:
-		return quantity + 0.25
+		return quantity + 0.25  # source code has a bonus of `0.2 + 0.04 + 0.008 + ...` roe
 
 	return quantity
 
 
 def tally_outputs(data, fish_id):
-
+	' tally up duplicate outputs from `calculate_pond_outputs` '
 	outputs = collections.defaultdict(list)
 
 	for chance, item, count in calculate_pond_outputs(data, fish_id):
@@ -251,8 +252,23 @@ def tally_outputs(data, fish_id):
 
 	yield (None, 0, nothing_chance)
 
+def weighted_average(tallies):
+	'''
+	take a series of [(weights, values)] and output (total_weight, average_value)'
+	example: [(0.5, 1), (0.3, 5)] -> (0.8, 2.5)
+	'''
+	total_chance =0
+	total_weight =0
+
+	for chance, count in tallies:
+		total_chance += chance
+		total_weight += chance * count
+
+	return (total_chance, total_weight / total_chance)
+
 
 def calculate_sell_price(data, settings, item_id, source_fish_id):
+	' find sell price, including aged/artisan calculations for roe '
 
 	price = data.objects[item_id]['Price']
 
@@ -273,19 +289,8 @@ def calculate_sell_price(data, settings, item_id, source_fish_id):
 	price *= 1.4
 	return int(price)  # aged roe, artisan
 
-
-def weighted_average(tallies):
-	total_chance =0
-	total_weight =0
-
-	for chance, count in tallies:
-		total_chance += chance
-		total_weight += chance * count
-
-	return (total_chance, total_weight / total_chance)
-
-
 def all_fish(data):
+	' iterate over all objects and yield the fish '
 	for item_id, obj in data.objects.items():
 		if obj.get('Type') == 'Fish':
 			yield item_id
@@ -296,6 +301,7 @@ def all_fish(data):
 
 
 def report_fish_ponds(data, settings):
+	' generate the whole report of fish ponds '
 	total_value_by_fish = []
 	for fish_id in all_fish(data):
 		fish_name = data.objects[fish_id]['Name']
@@ -346,13 +352,95 @@ def report_fish_ponds(data, settings):
 if __name__ == '__main__':
 	main()
 
-
-
-
 '''
+all fish
+(O)128	Pufferfish
+(O)129	Anchovy
+(O)130	Tuna
+(O)131	Sardine
+(O)132	Bream
+(O)136	Largemouth Bass
+(O)137	Smallmouth Bass
+(O)138	Rainbow Trout
+(O)139	Salmon
+(O)140	Walleye
+(O)141	Perch
+(O)142	Carp
+(O)143	Catfish
+(O)144	Pike
+(O)145	Sunfish
+(O)146	Red Mullet
+(O)147	Herring
+(O)148	Eel
+(O)149	Octopus
+(O)150	Red Snapper
+(O)151	Squid
+(O)152	Seaweed
+(O)153	Green Algae
+(O)154	Sea Cucumber
+(O)155	Super Cucumber
+(O)156	Ghostfish
+(O)157	White Algae
+(O)158	Stonefish
+(O)159	Crimsonfish
+(O)160	Angler
+(O)161	Ice Pip
+(O)162	Lava Eel
+(O)163	Legend
+(O)164	Sandfish
+(O)165	Scorpion Carp
+(O)167	Joja Cola
+(O)168	Trash
+(O)169	Driftwood
+(O)170	Broken Glasses
+(O)171	Broken CD
+(O)172	Soggy Newspaper
+(O)372	Clam
+(O)682	Mutant Carp
+(O)698	Sturgeon
+(O)699	Tiger Trout
+(O)700	Bullhead
+(O)701	Tilapia
+(O)702	Chub
+(O)704	Dorado
+(O)705	Albacore
+(O)706	Shad
+(O)707	Lingcod
+(O)708	Halibut
+(O)715	Lobster
+(O)716	Crayfish
+(O)717	Crab
+(O)718	Cockle
+(O)719	Mussel
+(O)720	Shrimp
+(O)721	Snail
+(O)722	Periwinkle
+(O)723	Oyster
+(O)734	Woodskip
+(O)775	Glacierfish
+(O)795	Void Salmon
+(O)796	Slimejack
+(O)798	Midnight Squid
+(O)799	Spook Fish
+(O)800	Blobfish
+(O)267	Flounder
+(O)269	Midnight Carp
+(O)836	Stingray
+(O)837	Lionfish
+(O)838	Blue Discus
+(O)898	Son of Crimsonfish
+(O)899	Ms. Angler
+(O)900	Legend II
+(O)901	Radioactive Carp
+(O)902	Glacierfish Jr.
+(O)SeaJelly	Sea Jelly
+(O)CaveJelly	Cave Jelly
+(O)RiverJelly	River Jelly
+(O)Goby	Goby
+(O)393	Coral
+(O)397	Sea Urchin
 
-
-
+all outputs
 (O)152	Seaweed
 (O)153	Green Algae
 (O)157	White Algae
