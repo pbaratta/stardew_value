@@ -1,0 +1,525 @@
+Pufferfish (128)
+	Roe(1.2)[162]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 154.375
+Anchovy (129)
+	Roe(1.2)[56]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 53.438
+Tuna (130)
+	Roe(1.2)[100]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 95.000
+Sardine (131)
+	Roe(1.2)[62]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 59.375
+Bream (132)
+	Roe(1.2)[65]: 0.855
+	Nothing: 0.145
+	Expected Daily Value: 55.575
+Largemouth Bass (136)
+	Roe(1.2)[100]: 0.855
+	Nothing: 0.145
+	Expected Daily Value: 85.500
+Smallmouth Bass (137)
+	Roe(1.2)[69]: 0.855
+	Nothing: 0.145
+	Expected Daily Value: 58.781
+Rainbow Trout (138)
+	Rainbow Shell[300]: 0.019
+	Prismatic Shard[2000]: 0.001
+	Roe(1.2)[78]: 0.930
+	Nothing: 0.050
+	Expected Daily Value: 79.642
+Salmon (139)
+	Roe(1.2)[84]: 0.855
+	Nothing: 0.145
+	Expected Daily Value: 71.606
+Walleye (140)
+	Roe(1.2)[102]: 0.855
+	Nothing: 0.145
+	Expected Daily Value: 87.638
+Perch (141)
+	Roe(1.2)[71]: 0.855
+	Nothing: 0.145
+	Expected Daily Value: 60.919
+Carp (142)
+	Roe(1.2)[56]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 53.438
+Catfish (143)
+	Roe(1.2)[162]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 154.375
+Pike (144)
+	Bug Meat(20)[160]: 0.048
+	Roe(1.2)[100]: 0.902
+	Nothing: 0.050
+	Expected Daily Value: 97.850
+Sunfish (145)
+	Solar Essence[40]: 0.076
+	Roe(1.2)[56]: 0.787
+	Nothing: 0.137
+	Expected Daily Value: 47.286
+Red Mullet (146)
+	Roe(1.2)[84]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 79.562
+Herring (147)
+	Roe(1.2)[56]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 53.438
+Eel (148)
+	Roe(1.2)[90]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 85.500
+Octopus (149)
+	Omni Geode(2.3)[0]: 0.159
+	Roe(1.2)[131]: 0.791
+	Nothing: 0.050
+	Expected Daily Value: 103.764
+Red Snapper (150)
+	Roe(1.2)[69]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 65.312
+Squid (151)
+	Squid Ink[110]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 104.500
+Seaweed (152)
+Green Algae (153)
+Sea Cucumber (154)
+	Roe(1.2)[84]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 79.562
+Super Cucumber (155)
+	Iridium Ore(2)[200]: 0.048
+	Amethyst(2)[200]: 0.045
+	Roe(1.2)[194]: 0.857
+	Nothing: 0.050
+	Expected Daily Value: 184.641
+Ghostfish (156)
+	White Algae(5)[125]: 0.048
+	Pale Broth(3)[450]: 0.018
+	Quartz(2.3)[57]: 0.165
+	Refined Quartz[50]: 0.039
+	Roe(1.2)[65]: 0.680
+	Nothing: 0.050
+	Expected Daily Value: 69.661
+White Algae (157)
+Stonefish (158)
+	Geode(2.3)[114]: 0.148
+	Stone(30)[60]: 0.068
+	Diamond[750]: 0.007
+	Copper Ore(5)[25]: 0.073
+	Roe(1.2)[225]: 0.409
+	Nothing: 0.295
+	Expected Daily Value: 120.321
+Crimsonfish (159)
+	Roe(1.8)[1365]: 0.460
+	Nothing: 0.540
+	Expected Daily Value: 627.900
+Angler (160)
+	Roe(2.6)[1251]: 0.438
+	Nothing: 0.562
+	Expected Daily Value: 547.500
+Ice Pip (161)
+	Frozen Geode(2.3)[229]: 0.148
+	Frozen Tear(5)[375]: 0.068
+	Diamond[750]: 0.007
+	Iron Ore(5)[50]: 0.073
+	Roe(1.2)[350]: 0.409
+	Nothing: 0.295
+	Expected Daily Value: 211.482
+Lava Eel (162)
+	Magma Geode(8.2)[1230]: 0.049
+	Cave Jelly(2.1)[387]: 0.064
+	Spicy Eel(5)[875]: 0.035
+	Roe(1.5)[565]: 0.737
+	Gold Ore(5)[125]: 0.065
+	Nothing: 0.050
+	Expected Daily Value: 540.030
+Legend (163)
+	Roe(1.4)[3667]: 0.358
+	Nothing: 0.643
+	Expected Daily Value: 1310.856
+Sandfish (164)
+	Cactus Seeds(3.5)[0]: 0.048
+	Roe(2.2)[148]: 0.818
+	Nothing: 0.135
+	Expected Daily Value: 121.407
+Scorpion Carp (165)
+	Cactus Seeds(3.5)[0]: 0.048
+	Roe(2.2)[233]: 0.818
+	Nothing: 0.135
+	Expected Daily Value: 190.265
+Joja Cola (167)
+Trash (168)
+Driftwood (169)
+Broken Glasses (170)
+Broken CD (171)
+Soggy Newspaper (172)
+Clam (372)
+	Nautilus Shell[120]: 0.019
+	Warp Totem: Beach[20]: 0.070
+	Seaweed(2)[40]: 0.076
+	Sea Urchin[160]: 0.039
+	Coral[80]: 0.056
+	Trash[0]: 0.061
+	Driftwood[0]: 0.033
+	Broken Glasses[0]: 0.031
+	Broken CD[0]: 0.030
+	Soggy Newspaper[0]: 0.028
+	Roe(1.2)[69]: 0.101
+	Nothing: 0.456
+	Expected Daily Value: 24.444
+Mutant Carp (682)
+	Roe(2.6)[1371]: 0.430
+	Nothing: 0.570
+	Expected Daily Value: 589.625
+Sturgeon (698)
+	Roe(1.5)[195]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 185.250
+Tiger Trout (699)
+	Roe(2.1)[224]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 212.467
+Bullhead (700)
+	Roe(1.2)[84]: 0.855
+	Nothing: 0.145
+	Expected Daily Value: 71.606
+Tilapia (701)
+	Roe(1.2)[84]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 79.562
+Chub (702)
+	Roe(1.2)[69]: 0.855
+	Nothing: 0.145
+	Expected Daily Value: 58.781
+Dorado (704)
+	Bug Meat(20)[160]: 0.048
+	Roe(1.2)[100]: 0.902
+	Nothing: 0.050
+	Expected Daily Value: 97.850
+Albacore (705)
+	Roe(1.2)[84]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 79.562
+Shad (706)
+	Roe(1.2)[75]: 0.855
+	Nothing: 0.145
+	Expected Daily Value: 64.125
+Lingcod (707)
+	Bug Meat(20)[160]: 0.048
+	Roe(1.2)[112]: 0.902
+	Nothing: 0.050
+	Expected Daily Value: 109.131
+Halibut (708)
+	Roe(1.2)[88]: 0.950
+	Nothing: 0.050
+	Expected Daily Value: 83.125
+Lobster (715)
+	Nautilus Shell[120]: 0.019
+	Warp Totem: Beach[20]: 0.070
+	Seaweed(2)[40]: 0.076
+	Sea Urchin[160]: 0.039
+	Coral[80]: 0.056
+	Trash[0]: 0.061
+	Driftwood[0]: 0.033
+	Broken Glasses[0]: 0.031
+	Broken CD[0]: 0.030
+	Soggy Newspaper[0]: 0.028
+	Roe(1.2)[112]: 0.101
+	Nothing: 0.456
+	Expected Daily Value: 28.883
+Crayfish (716)
+	Warp Totem: Mountains[20]: 0.071
+	Green Algae(2)[30]: 0.044
+	Mixed Seeds(2.5)[0]: 0.042
+	Trash[0]: 0.070
+	Driftwood[0]: 0.038
+	Broken Glasses[0]: 0.036
+	Broken CD[0]: 0.034
+	Soggy Newspaper[0]: 0.032
+	Roe(1.2)[84]: 0.117
+	Nothing: 0.516
+	Expected Daily Value: 12.508
+Crab (717)
+	Nautilus Shell[120]: 0.019
+	Warp Totem: Beach[20]: 0.070
+	Seaweed(2)[40]: 0.076
+	Sea Urchin[160]: 0.039
+	Coral[80]: 0.056
+	Trash[0]: 0.061
+	Driftwood[0]: 0.033
+	Broken Glasses[0]: 0.031
+	Broken CD[0]: 0.030
+	Soggy Newspaper[0]: 0.028
+	Roe(1.2)[100]: 0.101
+	Nothing: 0.456
+	Expected Daily Value: 27.614
+Cockle (718)
+	Nautilus Shell[120]: 0.019
+	Warp Totem: Beach[20]: 0.070
+	Seaweed(2)[40]: 0.076
+	Sea Urchin[160]: 0.039
+	Coral[80]: 0.056
+	Trash[0]: 0.061
+	Driftwood[0]: 0.033
+	Broken Glasses[0]: 0.031
+	Broken CD[0]: 0.030
+	Soggy Newspaper[0]: 0.028
+	Roe(1.2)[69]: 0.101
+	Nothing: 0.456
+	Expected Daily Value: 24.444
+Mussel (719)
+	Nautilus Shell[120]: 0.019
+	Warp Totem: Beach[20]: 0.070
+	Seaweed(2)[40]: 0.076
+	Sea Urchin[160]: 0.039
+	Coral[80]: 0.056
+	Trash[0]: 0.061
+	Driftwood[0]: 0.033
+	Broken Glasses[0]: 0.031
+	Broken CD[0]: 0.030
+	Soggy Newspaper[0]: 0.028
+	Roe(1.2)[56]: 0.101
+	Nothing: 0.456
+	Expected Daily Value: 23.175
+Shrimp (720)
+	Nautilus Shell[120]: 0.019
+	Warp Totem: Beach[20]: 0.070
+	Seaweed(2)[40]: 0.076
+	Sea Urchin[160]: 0.039
+	Coral[80]: 0.056
+	Trash[0]: 0.061
+	Driftwood[0]: 0.033
+	Broken Glasses[0]: 0.031
+	Broken CD[0]: 0.030
+	Soggy Newspaper[0]: 0.028
+	Roe(1.2)[75]: 0.101
+	Nothing: 0.456
+	Expected Daily Value: 25.078
+Snail (721)
+	Warp Totem: Mountains[20]: 0.071
+	Green Algae(2)[30]: 0.044
+	Mixed Seeds(2.5)[0]: 0.042
+	Trash[0]: 0.070
+	Driftwood[0]: 0.038
+	Broken Glasses[0]: 0.036
+	Broken CD[0]: 0.034
+	Soggy Newspaper[0]: 0.032
+	Roe(1.2)[78]: 0.117
+	Nothing: 0.516
+	Expected Daily Value: 11.779
+Periwinkle (722)
+	Warp Totem: Mountains[20]: 0.071
+	Green Algae(2)[30]: 0.044
+	Mixed Seeds(2.5)[0]: 0.042
+	Trash[0]: 0.070
+	Driftwood[0]: 0.038
+	Broken Glasses[0]: 0.036
+	Broken CD[0]: 0.034
+	Soggy Newspaper[0]: 0.032
+	Roe(1.2)[50]: 0.117
+	Nothing: 0.516
+	Expected Daily Value: 8.573
+Oyster (723)
+	Nautilus Shell[120]: 0.019
+	Warp Totem: Beach[20]: 0.070
+	Seaweed(2)[40]: 0.076
+	Sea Urchin[160]: 0.039
+	Coral[80]: 0.056
+	Trash[0]: 0.061
+	Driftwood[0]: 0.033
+	Broken Glasses[0]: 0.031
+	Broken CD[0]: 0.030
+	Soggy Newspaper[0]: 0.028
+	Roe(1.2)[62]: 0.101
+	Nothing: 0.456
+	Expected Daily Value: 23.809
+Woodskip (734)
+	Acorn(3)[60]: 0.048
+	Maple Seed(3)[15]: 0.045
+	Pine Cone(3)[15]: 0.043
+	Wood(4.4)[9]: 0.216
+	Hardwood(5)[75]: 0.075
+	Roe(1.2)[84]: 0.445
+	Nothing: 0.128
+	Expected Daily Value: 48.954
+Glacierfish (775)
+	Roe(2.6)[1395]: 0.448
+	Nothing: 0.552
+	Expected Daily Value: 624.406
+Void Salmon (795)
+	Void Egg[65]: 0.048
+	Void Essence(7.5)[375]: 0.072
+	Roe(2.1)[218]: 0.830
+	Nothing: 0.050
+	Expected Daily Value: 211.500
+Slimejack (796)
+	Green Slime Egg[1000]: 0.019
+	Slime(25.0)[125]: 0.325
+	Green Algae[15]: 0.061
+	Roe(1.2)[100]: 0.437
+	Nothing: 0.159
+	Expected Daily Value: 104.096
+Midnight Squid (798)
+	Squid Ink(1.3)[138]: 0.925
+	Nothing: 0.075
+	Expected Daily Value: 127.866
+Spook Fish (799)
+	Treasure Chest[5000]: 0.003
+	Roe(1.2)[175]: 0.947
+	Nothing: 0.050
+	Expected Daily Value: 180.001
+Blobfish (800)
+	Pearl[2500]: 0.019
+	Warp Totem: Farm(5)[100]: 0.019
+	Roe(1.8)[490]: 0.912
+	Nothing: 0.050
+	Expected Daily Value: 496.428
+Flounder (267)
+	Sea Jelly[200]: 0.075
+	Roe(1.2)[100]: 0.875
+	Nothing: 0.050
+	Expected Daily Value: 102.458
+Midnight Carp (269)
+	River Jelly[125]: 0.075
+	Roe(1.2)[131]: 0.875
+	Nothing: 0.050
+	Expected Daily Value: 124.221
+Stingray (836)
+	Battery Pack[500]: 0.095
+	Dragon Tooth[500]: 0.051
+	Cinder Shard(3.5)[175]: 0.080
+	Magma Cap[400]: 0.036
+	Roe(1.2)[150]: 0.687
+	Nothing: 0.050
+	Expected Daily Value: 204.756
+Lionfish (837)
+	Tiger Slime Egg[8000]: 0.019
+	Taro Tuber(3.5)[70]: 0.261
+	Roe(1.2)[100]: 0.670
+	Nothing: 0.050
+	Expected Daily Value: 237.280
+Blue Discus (838)
+	Banana[150]: 0.151
+	Golden Coconut[0]: 0.043
+	Roe(1.2)[112]: 0.756
+	Nothing: 0.050
+	Expected Daily Value: 107.730
+Son of Crimsonfish (898)
+	Roe(1.8)[1365]: 0.460
+	Nothing: 0.540
+	Expected Daily Value: 627.900
+Ms. Angler (899)
+	Roe(2.6)[1251]: 0.438
+	Nothing: 0.562
+	Expected Daily Value: 547.500
+Legend II (900)
+	Roe(1.4)[3667]: 0.358
+	Nothing: 0.643
+	Expected Daily Value: 1310.856
+Radioactive Carp (901)
+	Roe(2.6)[1371]: 0.430
+	Nothing: 0.570
+	Expected Daily Value: 589.625
+Glacierfish Jr. (902)
+	Roe(2.6)[1395]: 0.448
+	Nothing: 0.552
+	Expected Daily Value: 624.406
+Sea Jelly (SeaJelly)
+Cave Jelly (CaveJelly)
+River Jelly (RiverJelly)
+Goby (Goby)
+	Roe(1.2)[131]: 0.855
+	Nothing: 0.145
+	Expected Daily Value: 112.219
+Coral (393)
+	Dolomite[300]: 0.057
+	Limestone[15]: 0.054
+	Nothing: 0.889
+	Expected Daily Value: 17.904
+Sea Urchin (397)
+	Roe(1.4)[154]: 0.501
+	Nothing: 0.499
+	Expected Daily Value: 77.232
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Legend II	1310.856
+Legend	1310.856
+Son of Crimsonfish	627.900
+Crimsonfish	627.900
+Glacierfish Jr.	624.406
+Glacierfish	624.406
+Radioactive Carp	589.625
+Mutant Carp	589.625
+Ms. Angler	547.500
+Angler	547.500
+Lava Eel	540.030
+Blobfish	496.428
+Lionfish	237.280
+Tiger Trout	212.467
+Void Salmon	211.500
+Ice Pip	211.482
+Stingray	204.756
+Scorpion Carp	190.265
+Sturgeon	185.250
+Super Cucumber	184.641
+Spook Fish	180.001
+Pufferfish	154.375
+Catfish	154.375
+Midnight Squid	127.866
+Midnight Carp	124.221
+Sandfish	121.407
+Stonefish	120.321
+Goby	112.219
+Lingcod	109.131
+Blue Discus	107.730
+Squid	104.500
+Slimejack	104.096
+Octopus	103.764
+Flounder	102.458
+Pike	97.850
+Dorado	97.850
+Tuna	95.000
+Walleye	87.638
+Largemouth Bass	85.500
+Eel	85.500
+Halibut	83.125
+Rainbow Trout	79.642
+Tilapia	79.562
+Sea Cucumber	79.562
+Red Mullet	79.562
+Albacore	79.562
+Sea Urchin	77.232
+Salmon	71.606
+Bullhead	71.606
+Ghostfish	69.661
+Red Snapper	65.312
+Shad	64.125
+Perch	60.919
+Sardine	59.375
+Smallmouth Bass	58.781
+Chub	58.781
+Bream	55.575
+Herring	53.438
+Carp	53.438
+Anchovy	53.438
+Woodskip	48.954
+Sunfish	47.286
+Lobster	28.883
+Crab	27.614
+Shrimp	25.078
+Cockle	24.444
+Clam	24.444
+Oyster	23.809
+Mussel	23.175
+Coral	17.904
+Crayfish	12.508
+Snail	11.779
+Periwinkle	8.573
